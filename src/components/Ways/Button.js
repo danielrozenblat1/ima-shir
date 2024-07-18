@@ -21,7 +21,7 @@ const Button = (props) => {
       return;
     }
 
-    const phoneNumber = "+972507896962";
+    const phoneNumber = "+972505561677";
     const message = props.message || "היי שיר, אשמח לשמוע על..";
     const encodedMessage = encodeURIComponent(message);
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;

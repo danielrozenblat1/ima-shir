@@ -87,7 +87,7 @@
     text-align: center;
     margin: 1% auto;
     direction: rtl;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .underline {
@@ -175,7 +175,7 @@
 
 @media (min-width: 350px) and (max-width: 450px) {
     .title {  margin:2% auto;  font-size: 2.8rem; }
-    .job { margin:3% auto; font-size: 1.3rem; width: 95%; }
+    .job { margin:3% auto; font-size: 1.2rem; width: 95%; }
     .description, .descriptionP { margin:3% auto; font-size: 1.15rem; width: 95%; }
     .center { width: 60%; }
 }
