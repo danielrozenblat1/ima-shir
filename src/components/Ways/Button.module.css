@@ -1,0 +1,106 @@
+.icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #ffffff;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5px 1px #333333;
+  justify-content: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-right: 90px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-family: "AssistantR", sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.description {
+  font-size: 0.9rem;
+  font-family: "AssistantR", sans-serif;
+  direction: rtl;
+  text-align: right;
+
+}
+
+.buttonWrap {
+  width: 400px;
+  height: 80px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 4px 1px #333;
+  background: linear-gradient(135deg, rgba(252, 254, 255, 0.7) 0%, rgba(255, 255, 255, 0.9) 100%);
+  margin: 3% auto;
+  display: flex;
+  position: relative;
+}
+
+@media only screen and (max-width: 350px) {
+  .icon {
+    height: 60px;
+    width: 60px;
+  }
+  
+  .text {
+    font-size: 1rem;
+  }
+  
+  .description {
+    font-size: 0.8rem;
+  }
+  
+  .buttonWrap {
+    width: 270px;
+    height: 60px;
+    border-radius: 30px;  
+    margin: 20px auto;
+  }
+
+  .textContainer {
+    padding-right: 70px;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 550px) {
+  .icon {
+    height: 65px;
+    width: 65px;
+  }
+  
+  .text {
+    font-size: 1.1rem;
+  }
+  
+  .description {
+    font-size: 0.85rem;
+  }
+  
+  .buttonWrap {
+    width: 330px;
+    height: 65px;
+    border-radius: 30px;
+    margin: 20px auto;
+  }
+
+  .textContainer {
+    padding-right: 75px;
+  }
+}

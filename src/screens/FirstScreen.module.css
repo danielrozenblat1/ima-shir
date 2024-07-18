@@ -1,0 +1,231 @@
+.title {
+    font-size: 4rem;
+    font-family: "Levin";
+    text-align: center;
+    margin: 1% auto;
+    direction: rtl;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.underline {
+    text-decoration: none;
+    color: black;
+    display: inline;
+    position: relative;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    background-color: #C1645A;
+    animation: underline-animation 2s infinite;
+}
+
+@keyframes underline-animation {
+    0% {
+        left: -10%;
+        width: 100%;
+    }
+    50% {
+        left: 0;
+        width: 100%;
+    }
+    100% {
+        left: 100%;
+        width: 0;
+    }
+}
+
+.image {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.job {
+    font-size: 2rem;
+    font-family: "Levin";
+    text-align: center;
+    margin: 1% auto;
+    direction: rtl;
+    width: 40%;
+}
+
+.center {
+    display: flex;
+    margin: 0 auto;
+    width: 20%;
+    justify-content: center;
+}
+
+.description {
+    font-size: 1.5rem;
+    font-family: "Levin";
+    text-align: center;
+    margin: 1% auto;
+    direction: rtl;
+    width: 40%;
+}
+.descriptionP {
+    font-size: 1.5rem;
+    font-family: "Levin";
+    text-align: center;
+    margin: 1% auto;
+    direction: rtl;
+    padding-top:80px;
+    width: 40%;
+}
+
+.title {
+    font-size: 4rem;
+    font-family: "Levin";
+    text-align: center;
+    margin: 1% auto;
+    direction: rtl;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.underline {
+    text-decoration: none;
+    color: black;
+    display: inline;
+    position: relative;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    background-color: #ff6351;
+    animation: underline-animation 2s infinite;
+}
+
+@keyframes underline-animation {
+    0% {
+        left: -10%;
+        width: 100%;
+    }
+    50% {
+        left: 0;
+        width: 100%;
+    }
+    100% {
+        left: 100%;
+        width: 0;
+    }
+}
+
+.image {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.job {
+    font-size: 2rem;
+    font-family: "Levin";
+    text-align: center;
+    margin: 1% auto;
+    direction: rtl;
+    width: 40%;
+}
+
+.center {
+    display: flex;
+    margin: 0 auto;
+    width: 20%;
+    justify-content: center;
+}
+
+.description {
+    font-size: 1.5rem;
+    font-family: "Levin";
+    text-align: center;
+    margin: 1% auto;
+    direction: rtl;
+    width: 40%;
+}
+
+.descriptionP {
+    font-size: 1.5rem;
+    font-family: "Levin";
+    text-align: center;
+    margin: 1% auto;
+    direction: rtl;
+    padding-top: 80px;
+    width: 40%;
+}
+
+/* Responsive styles */
+@media (max-width: 350px) {
+    .title {  margin:2% auto;  font-size: 2.5rem; }
+    .job { margin:3% auto; font-size: 1.15rem; width: 95%; }
+    .description, .descriptionP { margin:3% auto; font-size: 1.1rem; width: 95%; }
+    .center { width: 70%; }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+    .title {  margin:2% auto;  font-size: 2.8rem; }
+    .job { margin:3% auto; font-size: 1.3rem; width: 95%; }
+    .description, .descriptionP { margin:3% auto; font-size: 1.15rem; width: 95%; }
+    .center { width: 60%; }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+    .title { font-size: 3rem; }
+    .job { font-size: 1.4rem; width: 85%; }
+    .description, .descriptionP { font-size: 1.25rem; width: 85%; }
+    .center { width:55%; }
+}
+
+@media (min-width: 550px) and (max-width: 650px) {
+    .title { font-size: 3rem; }
+    .job { font-size: 1.5rem; width: 90%; }
+    .description, .descriptionP { font-size: 1.4rem; width: 90%; }
+    .center { width: 50%; }
+}
+
+@media (min-width: 650px) and (max-width: 750px) {
+    .title { font-size: 3.2rem; }
+    .job { font-size: 1.7rem; width: 85%; }
+    .description, .descriptionP { font-size: 1.4rem; width: 85%; }
+    .center { width: 45%; }
+}
+
+@media (min-width: 750px) and (max-width: 850px) {
+    .title { font-size: 3.5rem; }
+    .job { font-size: 1.7rem; width: 85%; }
+    .description, .descriptionP { font-size: 1.4rem; width: 85%; }
+    .center { width: 40%; }
+}
+
+@media (min-width: 850px) and (max-width: 950px) {
+    .title { font-size: 3.5rem; }
+    .job { font-size: 1.7rem; width: 85%; }
+    .description, .descriptionP { font-size: 1.4rem; width: 85%; }
+    .center { width: 40%; }
+}
+
+@media (min-width: 950px) and (max-width: 1050px) {
+    .title { font-size: 3.9rem; }
+    .job { font-size: 1.8rem; width: 90%; }
+    .description, .descriptionP { font-size: 1.5rem; width: 80%; }
+    .center { width: 30%; }
+}
+
+@media (min-width: 1050px) and (max-width: 1250px) {
+    .title { font-size: 3.9rem; }
+    .job { font-size: 2rem; width: 90%; }
+    .description, .descriptionP { font-size: 1.5rem; width: 70%; }
+    .center { width: 25%; }
+}
+
