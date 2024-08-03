@@ -21,7 +21,7 @@
     bottom: -2px;
     width: 100%;
     height: 3px;
-    background-color: #C1645A;
+    background-color: #000000;
     animation: underline-animation 2s infinite;
 }
 
@@ -90,23 +90,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.underline {
-    text-decoration: none;
-    color: black;
-    display: inline;
-    position: relative;
-}
 
-.underline::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    width: 100%;
-    height: 3px;
-    background-color: #ff6351;
-    animation: underline-animation 2s infinite;
-}
 
 @keyframes underline-animation {
     0% {

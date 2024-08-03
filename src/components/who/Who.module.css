@@ -1,5 +1,5 @@
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 
     display: flex;
@@ -98,7 +98,7 @@
     box-shadow: 0 0 5px 1px #555;
     width: 100%;
 width:800px;
-    margin: 0 auto;
+    margin: 15px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;

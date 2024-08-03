@@ -27,8 +27,8 @@ const SecondScreen=()=>{
     return <>
     <div className={styles.title}>כמה פעמים מצאת את עצמך..?</div>
     <div className={styles.row}>
-    <IconBox  right={true} icon={cloth} title="נאבקת עם הילד בבוקר שיתלבש ויתארגן בזמן"/>
-    <IconBox icon={mall} title="מרימה את הילד שמשתטח על הרצפה במקומות ציבוריים"/>
+    <IconBox  right={true} icon={cloth} title="נאבקת עם הילד בכל פעולה פשוטה- להתלבש, להתקלח, לצחצח שיניים, לסדר את המשחקים"/>
+    <IconBox icon={mall} title="מרימה בתסכול את הילד שמשתטח על הרצפה במקומות ציבוריים"/>
     <IconBox right={true} icon={no} title="חושבת פעמיים לפני שאת אומרת לא לילדים שלך"/>
     <IconBox icon={cry} title="נכנסת עם הילד ללופ של עונשים בידיעה שזו לא הדרך הנכונה"/>
     <IconBox  right={true} icon={sleep} title="מחכה לרגע שהילדים ילכו לישון בשביל כמה רגעים של שקט"/>
@@ -41,7 +41,7 @@ const SecondScreen=()=>{
 כל מה שחווית בחייך ועיצב אותך למי שאת היום.</div>
 <div className={styles.title}>וחשוב שתביני!</div>
 <div className={styles.description}>הבעיה לרוב מסתתרת בנו! <div className={styles.bold}>ולא בילד</div> אנחנו רק צריכות <div className={styles.bold}>להבין איפה הבעיה!</div></div>
-<div className={styles.title}>שיר, איך אני מבינה איפה הבעיה?</div>
+<div className={styles.title}>שיר, מה תהליך העבודה איתך?</div>
 <div className={styles.description}>זה קורה בכמה שלבים פשוטים.. </div>
     </>
 }

@@ -7,6 +7,7 @@ import SecondScreen from './screens/SecondScreen';
 import ThirdScreen from './screens/ThirdScreen';
 import AboutMe from './components/who/Who';
 import ForthScreen from './screens/ForthScreen';
+import ByMe from './components/ByMe/ByMe';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -39,6 +40,7 @@ function App() {
   <ThirdScreen/>
   <AboutMe/>
   <ForthScreen/>
+  <ByMe/>
   </div>
   </>
 }

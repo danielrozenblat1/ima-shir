@@ -13,8 +13,8 @@ const CountingUp = () => {
  
 
       <div className={styles.font}>
-        {inView && <CountUp end={200} duration={4.5} />}
-        <div className={styles.explain}>אמהות שעברו ליווי אישי</div>
+        {inView && <CountUp end={600} duration={4.5} />}
+        <div className={styles.explain}>+ הורים שעברו ליווי אישי</div>
       </div>
       <div className={styles.font}>
         {inView && <CountUp end={50} duration={3} />}

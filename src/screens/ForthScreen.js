@@ -5,6 +5,12 @@ import check from "../Icons/wired-outline-427-wound-plaster.json"
 const ForthScreen = (props) => {
   const buttons = [
     {
+      text: "הרצאות לצוותי חינוך",
+      description: "הרצאה מרוכזת לצוותי חינוך בבתי ספר, במוסדות ובארגונים",
+      icon: check,
+      message: "היי שיר, אשמח לשמוע על הרצאה לצוות חינוך"
+    },
+    {
       text: "פגישת ייעוץ ממוקדת",
       description: "פגישת זום באורך שעה וחצי לקבלת הדרכה ממוקדת על בעיה ספציפית",
       icon: check,
