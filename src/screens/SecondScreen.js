@@ -41,8 +41,8 @@ const SecondScreen=()=>{
 כל מה שחווית בחייך ועיצב אותך למי שאת היום.</div>
 <div className={styles.title}>וחשוב שתביני!</div>
 <div className={styles.description}>הבעיה לרוב מסתתרת בנו! <div className={styles.bold}>ולא בילד</div> אנחנו רק צריכות <div className={styles.bold}>להבין איפה הבעיה!</div></div>
-<div className={styles.title}>שיר, מה תהליך העבודה איתך?</div>
-<div className={styles.description}>זה קורה בכמה שלבים פשוטים.. </div>
+<div className={styles.title}  id="תהליך העבודה איתי">שיר, מה תהליך העבודה איתך?</div>
+<div className={styles.description} >זה קורה בכמה שלבים פשוטים.. </div>
     </>
 }
 export default SecondScreen

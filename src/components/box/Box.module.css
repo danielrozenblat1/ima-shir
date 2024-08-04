@@ -1,7 +1,7 @@
 .iconBox {
     width: 350px;
     height: 180px;
-    background-color: #c1645a25;
+    background-color: #ffffff25;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     display: flex;
@@ -23,7 +23,8 @@ margin:2% auto;
     font-size: 1.2rem;
     color: rgb(0, 0, 0);
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: "Assistant";
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   }
   @media (max-width: 350px) {
     .iconBox {

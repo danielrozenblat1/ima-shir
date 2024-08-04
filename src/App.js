@@ -8,6 +8,7 @@ import ThirdScreen from './screens/ThirdScreen';
 import AboutMe from './components/who/Who';
 import ForthScreen from './screens/ForthScreen';
 import ByMe from './components/ByMe/ByMe';
+import BasicAccordion from './components/Akordion/Akordion';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -40,6 +41,7 @@ function App() {
   <ThirdScreen/>
   <AboutMe/>
   <ForthScreen/>
+  <BasicAccordion/>
   <ByMe/>
   </div>
   </>

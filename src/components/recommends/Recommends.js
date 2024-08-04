@@ -223,7 +223,7 @@ const Recommends=()=>{
     
    
     return <>
-    <div className={styles.background} id="לקוחות ממליצות">
+    <div className={styles.background} id="המלצות">
 <div className={styles.title}>לחלק מהאמהות שליוויתי יש מה להגיד..</div>
 <div className={styles.explain}> מוזמנים להחליק ולהתרשם</div>
 <div className={styles.sliderContainer}>

@@ -52,7 +52,7 @@
 .profileContent {
     flex: 2;
     text-align: center;
-
+    font-family: "Assistant";
 }
 
 .profileContent p {
